@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="shop.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <section id="header">
+            
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a  href="home.html">Home</a></li>
+                    <li><a class="active" href="Shop.html">Shop</a></li>
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <script1>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+            
+                <img src="img/products/f1.jpg" width="100%" id="mainimg" alt="">
+
+        </div> 
+        <div class="single-pro-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T shirt</h4>
+            <h2>$78.00</h2>
+            <select>
+                <option>select size</option>
+                <option>S</option>
+                <option>L</option>
+                <option>M</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+           
+            <h4>product details</h4>
+            <span>The product is very soft and made up of cotton</span>
+            
+            <input type = "button" class ="button1" name = "productButton" value = "Add to cart" onclick="sv('payment', 'flex')">
+        </div>  
+        <div class="payment" id = "payment">
+            <h1 class="payTitle">Personal Information</h1>
+            
+            <h3>Enter your details here</h3>
+            
+            <label>Name and Surname</label>
+            <input type="text" placeholder="kiara advani" class="payInput">
+            
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 12345 67890" class="payInput">
+           
+            <label>Address</label>
+            <input type="text" placeholder="doddaballapura" class="payInput">
+            
+            <h1 class="payTitle">Card Information</h1>
+            <input type="text" class="payInput1" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="password" placeholder="cvv" class="payInput sm">
+            </div>
+            <div class="cardIcons">
+                <img src="./Images/Visa.png" width="150" alt="" class="cardIcon">
+            </div>
+            <br>
+            <input type = "button" class = "button2" value = "Pay Now" onclick="sv('payment', 'none');sv('otp', 'flex')">
+            <input type = "button" class = "button3" value = "X" onclick="sv('payment', 'none')"> 
+            
+    </div>
+       
+    </div>    
+        </section>
+        
+        <section id="product1" class="section-p1">
+            <h2>Featured Projects</h2>
+            <p>Summer Collection New modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n1.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n2.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n4.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                
+            </div>
+        </section>
+    
+   
+        </div> 
+        
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Contact</h4>
+                <p> <strong>Address : </strong> 562 Wellington Road, Street 32, San Farancisco</p>
+                <p><strong>Phone :</strong> +01 2222 365 /(+91) 01 1234 5679</p>
+                <p><strong>Hours :</strong> 10:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sing in</a>
+                <a href="#">View cart</a>
+                <a href="#">My wishlist</a>
+                <a href="#">Track my order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>From App Store or Google Play</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>© 2023, RLJIT - Chandana Gowda L</p>
+            </div>
+
+        </footer>
+    
+        
+        <script src="cart.js"></script>
+    </body>
+
+</html>
